@@ -1,6 +1,6 @@
-# Neural Network from Scratch
+# Neural Network
 
-Built a fully-connected feedforward neural network using only NumPy — no PyTorch, no TensorFlow. The goal was to actually understand what's happening under the hood rather than just calling `.fit()` on a black box.
+Built a fully-connected feedforward neural network using only NumPy no PyTorch, no TensorFlow. The goal was to actually understand what's happening under the hood rather than just calling `.fit()` on a black box.
 
 ## What's implemented
 
