@@ -19,7 +19,6 @@ Auth: DefaultAzureCredential — works with az login, managed identity,
 
 Run with --mock to test without a real workspace.
 """
-
 import json
 import time
 import argparse
@@ -284,7 +283,6 @@ def run_kql(client, workspace_id: str, kql: str,
         print(f"[warn] KQL query failed: {e}")
         return []
 
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 SEV_COLOR = {"critical": "\033[91m", "high": "\033[93m",
@@ -351,7 +349,6 @@ def main():
     print(f"[*] Hunt complete. {len(results)} findings | " +
           " | ".join(f"{k.upper()}: {v}" for k, v in counts.items()))
     print(f"[*] Results → {out}")
-
 
 if __name__ == "__main__":
     main()
