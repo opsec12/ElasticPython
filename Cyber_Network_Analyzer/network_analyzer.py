@@ -9,7 +9,6 @@ Parses packet metadata (or simulated flow records) to detect:
 Runs in simulation mode if Scapy is not available / user lacks capture privileges.
 Requires root/admin for live capture mode.
 """
-
 import math
 import time
 import json
@@ -358,7 +357,6 @@ async def main():
 
     print(f"\n[*] Packets: {analyzer.pkt_count} | Detections: {analyzer.det_count}")
     print(f"[*] Detection log: {out}")
-
 
 if __name__ == "__main__":
     asyncio.run(main())
